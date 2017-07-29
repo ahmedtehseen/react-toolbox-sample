@@ -1,0 +1,40 @@
+.products-container{
+	width: 1024px;
+	display: flex;
+	flex-direction: column;
+}
+
+.tab_bar>section {
+	align-items: center;
+}
+
+.toggle-button {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.toggle-icon>span {
+	font-size: 28px !important;
+}
+
+.products-filter {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.products-filter li{
+	cursor: default;
+}
+
+.products-collection {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.add-product-button {
+	display: flex;
+	width: 100%;
+	flex-direction: row-reverse;
+}

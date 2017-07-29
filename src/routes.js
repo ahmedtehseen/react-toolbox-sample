@@ -1,13 +1,13 @@
 import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 
-import {App} from './containers';
-import {Dashboard} from './containers';
-import {Counter} from './containers';
+import {
+	App,
+	ScreensTab,
+} from './containers';
 
 export default (
 	<Route path="/" component={App}>
-		<IndexRoute component={Dashboard} />
-		<Route path="counter" component={Counter}/>
+		<IndexRoute component={ScreensTab} />
 	</Route>
 );

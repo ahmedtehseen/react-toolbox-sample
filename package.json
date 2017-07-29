@@ -1,26 +1,33 @@
 {
-  "name": "dartFrog-Guardian",
-  "version": "0.1.0",
+  "name": "ambidtech",
+  "version": "0.0.2",
   "private": true,
+  "reactToolbox": {
+  "include": [
+    "AUTOCOMPLETE", "AVATAR", "BUTTON", "CARD", "CHECKBOX", "CHIP", "DATE_PICKER", "DIALOG", "DRAWER", "DROPDOWN", "INPUT", "LAYOUT", "LINK", "LIST", "MENU", "NAVIGATION", "OVERLAY", "PROGRESS_BAR", "RADIO", "RIPPLE", "SLIDER", "SNACKBAR", "SWITCH", "TABLE", "TABS", "TIME_PICKER", "TOOLTIP"
+  ],
+  "customProperties": {
+    "animation-duration": "0.3s",
+    "color-accent": "var(--palette-pink-a200)",
+    "color-accent-dark": "var(--palette-pink-700)",
+    "color-primary-contrast": "var(--color-dark-contrast)",
+    "color-accent-contrast": "var(--color-dark-contrast)"
+  },
+  "output": "assets/react-toolbox"
+},
   "devDependencies": {
-    "react-scripts": "0.9.5"
+    "react-scripts": "0.9.5",
+    "react-toolbox": "2.0.0-beta.6",
+    "react-toolbox-themr": "^1.0.2"
   },
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "material-ui": "^0.17.4",
     "react": "^15.5.4",
-    "react-bootstrap": "^0.30.9",
     "react-dom": "^15.5.4",
-    "react-redux": "^5.0.4",
-    "react-router": "^3.0.5",
-    "react-tap-event-plugin": "^2.0.1",
-    "redux": "^3.6.0",
-    "redux-logger": "^3.0.1",
-    "redux-observable": "^0.14.1",
-    "rxjs": "^5.3.0"
+    "react-router": "^3.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
+    "toolbox": "react-toolbox-themr",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

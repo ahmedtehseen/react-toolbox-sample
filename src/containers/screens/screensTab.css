@@ -1,0 +1,8 @@
+.tab_bar>div>nav{
+	justify-content: center;
+	background-color: #303F9F !important;
+}
+
+.tab_bar>section:focus{
+	border-color: white;
+}
