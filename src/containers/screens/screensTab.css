@@ -1,8 +1,10 @@
 .tab_bar>div>nav{
 	justify-content: center;
 	background-color: #303F9F !important;
+	text-align: center;
 }
 
-.tab_bar>section:focus{
-	border-color: white;
+
+.screen-tabs {
+	width: 20%;
 }

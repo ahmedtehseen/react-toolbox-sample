@@ -4,8 +4,9 @@ import Button from 'react-toolbox/lib/button/Button';
 import Dropdown from 'react-toolbox/lib/dropdown/Dropdown';
 import Chip from 'react-toolbox/lib/chip/Chip';
 
-// productList
-// import { ProductList } from './list';
+import { ProductList } from './list';
+import { ProductGrid } from './grid';
+import { FooterComponent } from '../footer/footer';
 // styles
 import './products.css';
 
@@ -13,13 +14,13 @@ export class Products extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			view: false,
+			view: true,
 			countrySelected: 'PR'
 		}
 	}
 
 	countries = [
-    { value: 'PR', label: 'Products' }
+    { value: 'PR', label: 'PRODUCTS' }
   ];
 
   handleCountryChange = (value) => {
@@ -33,11 +34,12 @@ export class Products extends Component {
 	}
 
 	render() {
-		return (	
+		return (
+			<div>
 			<div className='products-container'>
 				<div className='toggle-button'>
 					<IconButton 
-						icon={this.state.view ? 'view_list' : 'view_module'} 
+						icon={this.state.view ? 'view_module' : 'list'} 
 						onClick={() => this.handleClick() } 
 						className='toggle-icon'
 					/>
@@ -59,12 +61,23 @@ export class Products extends Component {
 	        	/>
 	        </div>
 	        <div className='show-products'>
-	        	
+	        	{this.state.view ? <ProductList/> :
+	        	<div className='show-products'>
+	        	<ProductGrid/>
+	        	<ProductGrid/>
+	        	<ProductGrid/>
+	        	<ProductGrid/>
+	        	<ProductGrid/>
+	        	<ProductGrid/>
+	        	</div>
+	        	}
 	        </div>
 	        <div className='add-product-button'>
 	        	<Button icon='add' floating accent/>
 	        </div>
 				</div>
+			</div>
+			<FooterComponent/>
 			</div>
 		);
 	};

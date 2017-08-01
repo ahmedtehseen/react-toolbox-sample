@@ -2,6 +2,7 @@
 	width: 1024px;
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 4em;
 }
 
 .tab_bar>section {
@@ -31,10 +32,38 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	margin-bottom: 2em;
 }
 
 .add-product-button {
 	display: flex;
 	width: 100%;
 	flex-direction: row-reverse;
+  position: fixed;
+  bottom: 5em;
+  right: 2em;
+}
+
+.show-products {
+	width: 100%;
+	margin-bottom: 2em;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.card-container {
+	display: flex;
+	flex-direction: row;
+	margin-top: 2em;
+}
+
+.btn-section {
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+.card-btns {
+	justify-content: space-between;
 }
