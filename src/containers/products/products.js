@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 import IconButton from 'react-toolbox/lib/button/IconButton';
 import Button from 'react-toolbox/lib/button/Button';
 import Dropdown from 'react-toolbox/lib/dropdown/Dropdown';
@@ -73,7 +74,9 @@ export class Products extends Component {
 	        	}
 	        </div>
 	        <div className='add-product-button'>
+	        	<Link to='/add-product'>
 	        	<Button icon='add' floating accent/>
+	        	</Link>
 	        </div>
 				</div>
 			</div>

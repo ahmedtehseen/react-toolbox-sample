@@ -5,6 +5,7 @@ import Tab from 'react-toolbox/lib/tabs/Tab';
 // screens
 import { Products } from '../products/products';
 import { Orders } from '../orders/orders';
+import { Store } from '../store/store';
 // styles
 import './screensTab.css';
 
@@ -32,7 +33,9 @@ export class ScreensTab extends Component {
 	      <Tab className='screen-tabs' label='orders'>
           <Orders />
         </Tab>
-	      <Tab className='screen-tabs' label='store'><small>Third Content</small></Tab>
+	      <Tab className='screen-tabs' label='store'>
+          <Store />
+        </Tab>
 	    </Tabs>
     );
   }

@@ -19,6 +19,13 @@
   justify-content: space-around;
 }
 
+.products-footer-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 80%;
+}
+
 .footer-btns>button {
   margin-left: 1em;
 }

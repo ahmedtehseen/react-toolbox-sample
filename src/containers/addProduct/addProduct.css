@@ -1,0 +1,140 @@
+.products-tabbar>div>nav{
+	justify-content: center;
+	background-color: #303F9F !important;
+	text-align: center;
+}
+
+
+.product-screen-tabs {
+	width: 20%;
+}
+
+.add-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.product-heading {
+	font-weight: normal;
+	font-size: 2.5em;
+}
+
+.upload-box {
+	transition: 0.5s ease;
+	width: 40em;
+	height: 10em;
+	border:1px dashed;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 5em;
+	cursor: pointer;
+}
+
+.upload-box:hover {
+	background-color: #f9f9f9;
+}
+
+.upload-fonts{
+	font-size: 50px ;
+}
+
+.product-top-box {
+	display: flex;
+	flex-direction: row;
+	transition: 0.5s ease;
+	width: 35em;
+	height: 14em;
+	border:1px solid #DDDDDD;
+	border-radius: 20px;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 3em;
+}
+
+.product-middle-box {
+	display: flex;
+	flex-direction: row;
+	transition: 0.5s ease;
+	width: 50em;
+	height: 14em;
+	border:1px solid #DDDDDD;
+	border-radius: 20px;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 3em;
+}
+
+.box-left {
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px
+}
+
+.box-right {
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px
+}
+
+.box-left, .box-right, .box-middle {
+	display: flex;
+	transition: 0.5s ease;
+	width: 100%;
+	height: 100%;
+	/*border-radius: 20px;*/
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.box-left:hover, .box-right:hover, .box-middle:hover {
+	background-color: #f9f9f9;
+}
+
+.divider {
+	border-left: 1px solid #DDDDDD;
+	height: 14em;
+}
+
+.fields-top-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 2em;
+}
+
+.right-input {
+	width: 20em;
+}
+
+.middle-input{
+	/*margin:0 1em;*/
+	width: 20%;
+}
+
+
+.month-dropdown {
+	width: 20%;
+}
+.month-dropdown li{
+	cursor: default;
+}
+
+.fields-bottom-container{
+	display: flex;
+	flex-direction: row;
+	width: 40%;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 2em;
+}
+
+.input-months{
+	margin:0 1em;
+	width: 3em;
+}
