@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Drawer from 'react-toolbox/lib/drawer/Drawer';
-import FontIcon from 'react-toolbox/lib/font_icon/FontIcon';
+import IconButton from 'react-toolbox/lib/button/IconButton';
 
 // styles
 import './store.css';
@@ -52,7 +52,6 @@ export class Store extends Component {
       <div>
         <Drawer active={true} withOverlay={false} className='store-drawer'>
         	<div className='drawer-header'>
-	        	<img src={process.env.PUBLIC_URL+"/logo.png"} alt='logo' />
 	          <h2 className='store-heading'>STORE</h2>
           </div>
           {menus.map((menu, i) => {
@@ -61,8 +60,8 @@ export class Store extends Component {
           	);
           })}
           <div className='drawer-footer'>
-          	<FontIcon value='stay_current_portrait' className='font-icon'/>
-    				<FontIcon value='desktop_mac' className='font-icon'/>
+            <IconButton icon='stay_current_portrait'/>
+            <IconButton icon='desktop_mac'/>
           </div>
         </Drawer>
       </div>

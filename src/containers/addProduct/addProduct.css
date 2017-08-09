@@ -16,9 +16,21 @@
 	justify-content: space-between;
 }
 
+.back-button-continer{
+	width: 60%;
+	position: absolute;
+	top: 14em;
+}
+
 .product-heading {
-	font-weight: normal;
-	font-size: 2.5em;
+	font-size: 36px;
+}
+
+.resume_import{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .upload-box {
@@ -29,7 +41,7 @@
 	border-radius: 20px;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: stretch;
 	justify-content: center;
 	margin-bottom: 5em;
 	cursor: pointer;
@@ -128,7 +140,7 @@
 .fields-bottom-container{
 	display: flex;
 	flex-direction: row;
-	width: 40%;
+	width: 35%;
 	justify-content: flex-end;
 	align-items: center;
 	margin-bottom: 2em;

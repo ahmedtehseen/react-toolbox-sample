@@ -1,18 +1,23 @@
 .store-drawer{
 	width: 20%;
 	border-right: 0px !important;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0, 0, 0, 1);
 }
 
 .drawer-header {
-	background-color: #303F9F;
+	background-color: #8084A2;
 	margin: 0;
 	color: #fff;
 	height: 9.9em;
-	padding: 1em 1em 0;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
 }
 
 .store-heading {
-	padding: 1.1em 0 0 1em;
+	/*padding: 1.5em 0 0 .5em;*/
+	margin-bottom: 1px;
+	font-size: 32px;
 }
 
 .drawer-body {
@@ -27,7 +32,7 @@
 }
 
 .menu-circle {
-	margin-left: 10px;
+	margin-left: 2em;
 	margin-top: 10px;
 	background-color: #FF3B80;
 	color: #fff;
@@ -44,11 +49,13 @@
 .menu-sub-items {
 	display: flex;
 	flex-direction: column;
-	margin-left: 6em;
+	margin-left: 7.3em;
 }
 
 a{
 	text-decoration: none;
+	padding: .5em;
+	font-size: 20px;
 }
 
 .drawer-footer {
