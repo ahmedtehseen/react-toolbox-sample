@@ -42,7 +42,7 @@ export class Products extends Component {
 					<IconButton 
 						icon={this.state.view ? 'view_module' : 'list'} 
 						onClick={() => this.handleClick() } 
-						className='toggle-icon'
+						className='toggle-icon icon-button'
 					/>
 				</div>
 				<div className='products-filter'>
@@ -59,6 +59,7 @@ export class Products extends Component {
 	        	<Chip deletable>Deletable Chip</Chip>
 	        	<IconButton
 	        		icon='create'
+	        		className='icon-button'
 	        	/>
 	        </div>
 	        <div className='show-products'>

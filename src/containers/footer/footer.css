@@ -35,3 +35,11 @@
   position: fixed !important;
   right: 7em !important;
 }
+
+.footer-menu>button {
+  margin-left: 5px;
+}
+
+.footer-menu>button:hover {
+  background: rgba(33,33,33,.2);
+}

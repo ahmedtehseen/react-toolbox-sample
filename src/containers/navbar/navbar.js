@@ -21,7 +21,7 @@ export class Navbar extends Component {
     		className='nav_bar'
     	>
 		    <Navigation type='horizontal'>
-		      <IconButton icon='search' style={{ color: 'white' }}/>
+		      <IconButton icon='search' className='icon-button' style={{ color: 'white' }}/>
 		      <IconMenu icon={avatar} position='topRight' menuRipple>
 				    <MenuItem value='download' icon='get_app' caption='Download' />
 				    <MenuItem value='help' icon='favorite' caption='Favorite' />

@@ -31,7 +31,7 @@ export class ProductGrid extends Component {
 				    />
 				    <CardActions className='card-btns'>
 				      <p>TEST</p>
-				      <IconMenu icon='more_vert' position='bottomRight' menuRipple>
+				      <IconMenu icon='more_vert' className='grid-menu' position='bottomRight' menuRipple>
 						    <MenuItem value='Details' caption='Details' />
 						    <MenuItem value='Delete' caption='Delete' />
 						  </IconMenu>

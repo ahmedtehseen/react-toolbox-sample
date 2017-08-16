@@ -2,3 +2,7 @@
 	padding-top: 2em !important;
 	padding-bottom: 5em !important;
 }
+
+.nav_bar>div>button:hover {
+	background: rgba(33,33,33,.2);
+}

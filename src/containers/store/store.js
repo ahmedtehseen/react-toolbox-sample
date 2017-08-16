@@ -60,8 +60,8 @@ export class Store extends Component {
           	);
           })}
           <div className='drawer-footer'>
-            <IconButton icon='stay_current_portrait'/>
-            <IconButton icon='desktop_mac'/>
+            <IconButton className='icon-button' icon='stay_current_portrait'/>
+            <IconButton className='icon-button' icon='desktop_mac'/>
           </div>
         </Drawer>
       </div>

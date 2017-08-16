@@ -67,3 +67,7 @@
 .card-btns {
 	justify-content: space-between;
 }
+
+.grid-menu>button:hover {
+  background: rgba(33,33,33,.2);
+}
